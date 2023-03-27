@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    background: url(https://gamerwall.pro/uploads/posts/2022-03/1648516763_1-gamerwall-pro-p-temnitsa-fon-krasivie-1.jpg) no-repeat;
+}
+img{
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+div{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+#out{
+    margin: 50px auto;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(122, 142, 250, 0.534);
+    margin-top: 50px;
+    transition: .5s;
+}
+
+input{
+    width: 150px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+}
+#intro{
+   margin: 0px auto; 
+}
+.input-control{
+    margin-top: 100px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+@media screen and (max-width:1050px){
+    img{
+        width: 100%;
+    }
+}
